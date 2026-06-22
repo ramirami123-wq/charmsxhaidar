@@ -22,6 +22,7 @@
     "text_font": "poppins_n5",
     "text_font_size_desktop": 14,
     "button_letter_spacing": 18,
+    "cart_icon": "tote_bag",
     "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
@@ -37,10 +38,10 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#FFFFFF",
+          "background": "#ffffff",
           "background_gradient": "",
           "text_color": "#5c5c5c",
-          "primary_button_background": "#5c5c5c",
+          "primary_button_background": "#FFFFFF",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#5c5c5c"
@@ -48,7 +49,7 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#9E132B",
+          "background": "#9e132b",
           "background_gradient": "",
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
@@ -59,7 +60,7 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
+          "background": "#000000",
           "background_gradient": "",
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
