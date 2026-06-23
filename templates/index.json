@@ -221,7 +221,7 @@
             "text_weight": "600",
             "text_transform": "none",
             "letter_spacing": 1,
-            "background_color": "#F2F2F2",
+            "background_color": "#F1F1F1",
             "text_color": "#000000"
           },
           "blocks": {}
