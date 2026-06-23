@@ -9,27 +9,45 @@
  */
 {
   "sections": {
-    "image_with_text_block_FCNAPQ": {
-      "type": "image-with-text-block",
+    "image_with_text_overlay_PPGLnC": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_qBKFYn": {
-          "type": "subheading",
+        "heading_FJpXYM": {
+          "type": "heading",
           "settings": {
-            "text": "A Bracelet Designed By You."
+            "text": "A Bracelet Designed By  You.",
+            "heading_tag": "h2"
+          }
+        },
+        "button_LgghPd": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP NOW",
+            "url": "shopify://collections/all",
+            "background": "#9E132B",
+            "text_color": "#FFFFFF"
           }
         }
       },
       "block_order": [
-        "subheading_qBKFYn"
+        "heading_FJpXYM",
+        "button_LgghPd"
       ],
-      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
       "settings": {
         "color_scheme": "",
-        "image_size": "lg",
+        "image_size": "sm",
         "image": "shopify://shop_images/8944c8deed922098979f904b881e48f1.jpg",
+        "mobile_image": "shopify://shop_images/8944c8deed922098979f904b881e48f1.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
         "content_width": "md",
-        "enable_parallax": false,
-        "remove_vertical_spacing": true
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "featured-collections": {
@@ -313,7 +331,7 @@
     }
   },
   "order": [
-    "image_with_text_block_FCNAPQ",
+    "image_with_text_overlay_PPGLnC",
     "featured-collections",
     "multi-column",
     "collection-list",

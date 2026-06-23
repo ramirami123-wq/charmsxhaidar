@@ -79,11 +79,16 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff"
       }
+    },
+    "1782220301300880ad": {
+      "type": "_blocks",
+      "settings": {}
     }
   },
   "order": [
     "announcement-bar",
     "countdown_condensed_aNV3Qf",
-    "header"
+    "header",
+    "1782220301300880ad"
   ]
 }
