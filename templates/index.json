@@ -101,87 +101,137 @@
       "name": "SCROLLING BAR",
       "settings": {}
     },
-    "featured-collections": {
-      "type": "featured-collections",
+    "featured_product_nCYd8w": {
+      "type": "featured-product",
       "blocks": {
-        "collection-1": {
-          "type": "collection",
+        "title_EW6mKh": {
+          "type": "title",
           "settings": {
-            "collection": "",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
+            "heading_tag": "h3"
           }
+        },
+        "badges_VMMqWz": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_eAECMU": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_qNajyN": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_DnBq3N": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_EPn4P7": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_EQqV78": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_xrXjnK": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_xKfpqz": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_EkXdJc": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_eGzdjQ": {
+          "type": "pickup_availability",
+          "settings": {}
         }
       },
       "block_order": [
-        "collection-1"
+        "title_EW6mKh",
+        "badges_VMMqWz",
+        "price_eAECMU",
+        "rating_qNajyN",
+        "payment_terms_DnBq3N",
+        "separator_EPn4P7",
+        "description_EQqV78",
+        "variant_picker_xrXjnK",
+        "quantity_selector_xKfpqz",
+        "buy_buttons_EkXdJc",
+        "pickup_availability_eGzdjQ"
       ],
+      "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
+        "product": "charm™-italian-bracelet",
         "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
-      }
-    },
-    "multi-column": {
-      "type": "multi-column",
-      "blocks": {
-        "column-1": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-2": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-3": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-1",
-        "column-2",
-        "column-3"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "start",
-        "text_alignment": "start",
-        "spacing": "md",
-        "subheading": "About",
-        "title": "Multi-column",
+        "container_size": "lg",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "Featured product",
         "content": ""
       }
+    },
+    "blocks_CydwXF": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_73ccb8f_jfzhM9": {
+          "type": "ai_gen_block_73ccb8f",
+          "settings": {
+            "text_1": "Over 5000+ Happy Customers",
+            "text_2": "⭐⭐⭐⭐⭐",
+            "desktop_width_percent": 100,
+            "padding_vertical": 5,
+            "item_spacing": 80,
+            "scroll_speed": 10,
+            "pause_on_hover": "paused",
+            "text_size": 16,
+            "text_weight": "600",
+            "text_transform": "none",
+            "letter_spacing": 1,
+            "background_color": "#F2F2F2",
+            "text_color": "#000000"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_73ccb8f_jfzhM9"
+      ],
+      "name": "SCROLLING BAR",
+      "settings": {}
     },
     "collection-list": {
       "type": "collection-list",
@@ -312,85 +362,15 @@
         "button_2_link": "",
         "button_2_style": "solid"
       }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.</p>",
-        "button_text": "Subscribe",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look-1": {
-          "type": "look",
-          "settings": {
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look-1"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Shop the look",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "blog": "",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_date": false,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "subheading": "",
-        "title": "Blog posts",
-        "content": "",
-        "button_link": "",
-        "button_text": "View all"
-      }
     }
   },
   "order": [
     "image_with_text_overlay_PPGLnC",
     "blocks_EUrgPc",
-    "featured-collections",
-    "multi-column",
+    "featured_product_nCYd8w",
+    "blocks_CydwXF",
     "collection-list",
     "image-with-text-scroll",
-    "multiple-media-with-text",
-    "newsletter",
-    "shop-the-look",
-    "blog-posts"
+    "multiple-media-with-text"
   ]
 }
