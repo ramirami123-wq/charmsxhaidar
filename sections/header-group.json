@@ -25,7 +25,7 @@
             "scroll_speed": 15,
             "pause_on_hover": "paused",
             "text_size": 16,
-            "text_weight": "600",
+            "text_weight": "500",
             "text_transform": "uppercase",
             "letter_spacing": 1,
             "background_color": "#9E132B",
