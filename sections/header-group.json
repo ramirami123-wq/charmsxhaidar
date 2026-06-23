@@ -20,12 +20,12 @@
             "text_1": "FREE DELIVERY FOR ORDERS ABOVE 40$",
             "text_2": "SITE-WIDE RESTOCK",
             "desktop_width_percent": 100,
-            "padding_vertical": 15,
+            "padding_vertical": 5,
             "item_spacing": 80,
             "scroll_speed": 15,
             "pause_on_hover": "paused",
             "text_size": 16,
-            "text_weight": "500",
+            "text_weight": "600",
             "text_transform": "uppercase",
             "letter_spacing": 1,
             "background_color": "#9E132B",
@@ -40,33 +40,32 @@
       "name": "Scrolling Announcement",
       "settings": {}
     },
-    "announcement-bar": {
-      "type": "announcement-bar",
+    "17822219480530f62c": {
+      "type": "_blocks",
       "blocks": {
-        "message_ziVnLe": {
-          "type": "message",
+        "ai_gen_block_b9d7b23_cpH3XM": {
+          "type": "ai_gen_block_b9d7b23",
           "settings": {
-            "text": ""
-          }
-        },
-        "message_6qGkBz": {
-          "type": "message",
-          "settings": {
-            "text": "Announce something here"
-          }
-        },
-        "message-1": {
-          "type": "message",
-          "settings": {
-            "text": ""
-          }
+            "announcement_text": "FREE BRACELET OFFER ENDS IN:",
+            "countdown_end_date": "2026-06-31",
+            "countdown_end_time": "23:59:59",
+            "desktop_width_percent": 100,
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "text_size": 20,
+            "number_size": 20,
+            "label_size": 11
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "message_ziVnLe",
-        "message_6qGkBz",
-        "message-1"
+        "ai_gen_block_b9d7b23_cpH3XM"
       ],
+      "settings": {}
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
       "disabled": true,
       "settings": {
         "color_scheme": "",
@@ -75,19 +74,6 @@
         "cycle_speed": 5,
         "desktop_font_size": 11,
         "mobile_font_size": 10
-      }
-    },
-    "countdown_condensed_aNV3Qf": {
-      "type": "countdown-condensed",
-      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
-      "settings": {
-        "color_scheme": "scheme-4",
-        "content": "<strong>BUY 10 CHARMS, GET FREE BRACELET:</strong>",
-        "link_text": "",
-        "link_url": "",
-        "expiration_date": "2026-06-30 05:21",
-        "expiration_behavior": "leave",
-        "desktop_justification": "space-between"
       }
     },
     "header": {
@@ -120,8 +106,8 @@
   },
   "order": [
     "1782220301300880ad",
+    "17822219480530f62c",
     "announcement-bar",
-    "countdown_condensed_aNV3Qf",
     "header"
   ]
 }
