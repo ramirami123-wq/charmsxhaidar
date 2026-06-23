@@ -75,10 +75,28 @@
             "text_color": "#ffffff"
           },
           "blocks": {}
+        },
+        "ai_gen_block_28131cf_aGMtk4": {
+          "type": "ai_gen_block_28131cf",
+          "settings": {
+            "bold_text": "STEP 1:",
+            "normal_text": "CHOOSE YOUR BRACELET",
+            "bold_font": "poppins_n7",
+            "text_font": "poppins_n3",
+            "font_size": 20,
+            "text_color": "#FFFFFF",
+            "background_color": "#9E132B",
+            "text_alignment": "center",
+            "padding_vertical": 50,
+            "padding_horizontal": 20,
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_73ccb8f_YRmx8H"
+        "ai_gen_block_73ccb8f_YRmx8H",
+        "ai_gen_block_28131cf_aGMtk4"
       ],
       "name": "SCROLLING BAR",
       "settings": {}
