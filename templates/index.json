@@ -35,7 +35,8 @@
         "button_LgghPd"
       ],
       "custom_css": [
-        ".button {border-radius: 120px;}"
+        ".button {border-radius: 120px;}",
+        "* {text-transform: none !important;}"
       ],
       "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
       "settings": {
