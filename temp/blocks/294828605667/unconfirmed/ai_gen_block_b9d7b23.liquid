@@ -1,6 +1,321 @@
+{% doc %}
+  @prompt
+    Create a top announcement/header bar exactly like the attached example.
+    
+    Requirements:
+    
+    * Full-width black background (#000000).
+    * Left side text in bold white uppercase: FREE BRACELET OFFER ENDS IN:
+    * Right side should contain a live countdown timer displaying:
+        * Days
+        * Hrs
+        * Mins
+        * Secs
+    * Numbers should be white and bold.
+    * Labels (Days, Hrs, Mins, Secs) should be smaller white text underneath the numbers.
+    * Everything should be vertically centered.
+    * Layout should be responsive on mobile and desktop.
+    * Keep the bar height compact (around 40–50px tall).
+    * Use a clean modern font matching Shopify themes.
+    * Add spacing between each countdown unit similar to the example.
+    * Countdown should automatically update every second.
+    * Allow me to set the countdown end date/time from the theme editor., make all text centered, put : columns in between each time format
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-announcement-bar-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: 12px 20px;
+    min-height: 40px;
+  }
+
+  .ai-announcement-bar__container-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .ai-announcement-bar__text-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-weight: 700;
+    font-size: {{ block.settings.text_size }}px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .ai-announcement-bar__countdown-{{ ai_gen_id }} {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .ai-announcement-bar__unit-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .ai-announcement-bar__number-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-weight: 700;
+    font-size: {{ block.settings.number_size }}px;
+    line-height: 1;
+  }
+
+  .ai-announcement-bar__label-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.label_size }}px;
+    text-transform: uppercase;
+    line-height: 1;
+    opacity: 0.9;
+  }
+
+  .ai-announcement-bar__separator-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-weight: 700;
+    font-size: {{ block.settings.number_size }}px;
+    line-height: 1;
+    padding: 0 4px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-announcement-bar__container-{{ ai_gen_id }} {
+      flex-direction: column;
+      gap: 8px;
+      padding: 4px 0;
+    }
+
+    .ai-announcement-bar__text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size | times: 0.85 }}px;
+      white-space: normal;
+      text-align: center;
+    }
+
+    .ai-announcement-bar__countdown-{{ ai_gen_id }} {
+      gap: 6px;
+    }
+
+    .ai-announcement-bar__number-{{ ai_gen_id }} {
+      font-size: {{ block.settings.number_size | times: 0.85 }}px;
+    }
+
+    .ai-announcement-bar__label-{{ ai_gen_id }} {
+      font-size: {{ block.settings.label_size | times: 0.85 }}px;
+    }
+
+    .ai-announcement-bar__separator-{{ ai_gen_id }} {
+      font-size: {{ block.settings.number_size | times: 0.85 }}px;
+    }
+  }
+{% endstyle %}
+
+<countdown-timer-{{ ai_gen_id }}
+  class="ai-announcement-bar-{{ ai_gen_id }}"
+  data-end-date="{{ block.settings.countdown_end_date }}"
+  data-end-time="{{ block.settings.countdown_end_time }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-announcement-bar__container-{{ ai_gen_id }}">
+    <div class="ai-announcement-bar__text-{{ ai_gen_id }}">
+      {{ block.settings.announcement_text }}
+    </div>
+    <div class="ai-announcement-bar__countdown-{{ ai_gen_id }}">
+      <div class="ai-announcement-bar__unit-{{ ai_gen_id }}">
+        <div class="ai-announcement-bar__number-{{ ai_gen_id }}" data-days>00</div>
+        <div class="ai-announcement-bar__label-{{ ai_gen_id }}">Days</div>
+      </div>
+      <div class="ai-announcement-bar__separator-{{ ai_gen_id }}">:</div>
+      <div class="ai-announcement-bar__unit-{{ ai_gen_id }}">
+        <div class="ai-announcement-bar__number-{{ ai_gen_id }}" data-hours>00</div>
+        <div class="ai-announcement-bar__label-{{ ai_gen_id }}">Hrs</div>
+      </div>
+      <div class="ai-announcement-bar__separator-{{ ai_gen_id }}">:</div>
+      <div class="ai-announcement-bar__unit-{{ ai_gen_id }}">
+        <div class="ai-announcement-bar__number-{{ ai_gen_id }}" data-minutes>00</div>
+        <div class="ai-announcement-bar__label-{{ ai_gen_id }}">Mins</div>
+      </div>
+      <div class="ai-announcement-bar__separator-{{ ai_gen_id }}">:</div>
+      <div class="ai-announcement-bar__unit-{{ ai_gen_id }}">
+        <div class="ai-announcement-bar__number-{{ ai_gen_id }}" data-seconds>00</div>
+        <div class="ai-announcement-bar__label-{{ ai_gen_id }}">Secs</div>
+      </div>
+    </div>
+  </div>
+</countdown-timer-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class CountdownTimer{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.endDate = null;
+        this.interval = null;
+      }
+
+      connectedCallback() {
+        const dateStr = this.dataset.endDate;
+        const timeStr = this.dataset.endTime;
+
+        if (dateStr && timeStr) {
+          this.endDate = new Date(`${dateStr}T${timeStr}`);
+        } else if (dateStr) {
+          this.endDate = new Date(`${dateStr}T23:59:59`);
+        } else {
+          const tomorrow = new Date();
+          tomorrow.setDate(tomorrow.getDate() + 1);
+          tomorrow.setHours(23, 59, 59, 999);
+          this.endDate = tomorrow;
+        }
+
+        this.daysEl = this.querySelector('[data-days]');
+        this.hoursEl = this.querySelector('[data-hours]');
+        this.minutesEl = this.querySelector('[data-minutes]');
+        this.secondsEl = this.querySelector('[data-seconds]');
+
+        this.updateCountdown();
+        this.interval = setInterval(() => this.updateCountdown(), 1000);
+      }
+
+      disconnectedCallback() {
+        if (this.interval) {
+          clearInterval(this.interval);
+        }
+      }
+
+      updateCountdown() {
+        const now = new Date().getTime();
+        const distance = this.endDate.getTime() - now;
+
+        if (distance < 0) {
+          this.daysEl.textContent = '00';
+          this.hoursEl.textContent = '00';
+          this.minutesEl.textContent = '00';
+          this.secondsEl.textContent = '00';
+          if (this.interval) {
+            clearInterval(this.interval);
+          }
+          return;
+        }
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        this.daysEl.textContent = String(days).padStart(2, '0');
+        this.hoursEl.textContent = String(hours).padStart(2, '0');
+        this.minutesEl.textContent = String(minutes).padStart(2, '0');
+        this.secondsEl.textContent = String(seconds).padStart(2, '0');
+      }
+    }
+
+    customElements.define('countdown-timer-{{ ai_gen_id }}', CountdownTimer{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Countdown bar",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "Announcement text",
+      "default": "FREE BRACELET OFFER ENDS IN:"
+    },
+    {
+      "type": "text",
+      "id": "countdown_end_date",
+      "label": "End date",
+      "info": "Format: YYYY-MM-DD (e.g., 2026-12-31)",
+      "default": "2026-12-31"
+    },
+    {
+      "type": "text",
+      "id": "countdown_end_time",
+      "label": "End time",
+      "info": "Format: HH:MM:SS (e.g., 23:59:59)",
+      "default": "23:59:59"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Announcement text size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "number_size",
+      "label": "Number size",
+      "min": 14,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "label_size",
+      "label": "Label size",
+      "min": 8,
+      "max": 14,
+      "step": 1,
+      "unit": "px",
+      "default": 10
+    }
+  ],
+  "presets": [
+    {
+      "name": "Countdown bar"
+    }
+  ]
+}
 {% endschema %}
