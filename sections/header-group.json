@@ -11,26 +11,63 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "1782220301300880ad": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_73ccb8f_T3NCfc": {
+          "type": "ai_gen_block_73ccb8f",
+          "settings": {
+            "text_1": "FREE DELIVERY FOR ORDERS ABOVE 40$",
+            "text_2": "SITE-WIDE RESTOCK",
+            "desktop_width_percent": 100,
+            "padding_vertical": 15,
+            "item_spacing": 80,
+            "scroll_speed": 15,
+            "pause_on_hover": "paused",
+            "text_size": 16,
+            "text_weight": "500",
+            "text_transform": "uppercase",
+            "letter_spacing": 1,
+            "background_color": "#9E132B",
+            "text_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_73ccb8f_T3NCfc"
+      ],
+      "name": "Scrolling Announcement",
+      "settings": {}
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
         "message_ziVnLe": {
           "type": "message",
           "settings": {
-            "text": "SITE-WIDE RESTOCK"
+            "text": ""
+          }
+        },
+        "message_6qGkBz": {
+          "type": "message",
+          "settings": {
+            "text": "Announce something here"
           }
         },
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "FREE DELIVERY FOR ORDERS ABOVE 40$"
+            "text": ""
           }
         }
       },
       "block_order": [
         "message_ziVnLe",
+        "message_6qGkBz",
         "message-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "enable_sticky": false,
@@ -79,16 +116,12 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff"
       }
-    },
-    "1782220301300880ad": {
-      "type": "_blocks",
-      "settings": {}
     }
   },
   "order": [
+    "1782220301300880ad",
     "announcement-bar",
     "countdown_condensed_aNV3Qf",
-    "header",
-    "1782220301300880ad"
+    "header"
   ]
 }

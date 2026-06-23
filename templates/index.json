@@ -34,6 +34,9 @@
         "heading_FJpXYM",
         "button_LgghPd"
       ],
+      "custom_css": [
+        ".button {border-radius: 120px;}"
+      ],
       "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
       "settings": {
         "color_scheme": "",
@@ -49,6 +52,38 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
+    },
+    "blocks_wqManW": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_05b3d55_FMhEY3": {
+          "type": "ai_gen_block_05b3d55",
+          "settings": {
+            "text_1": "SITE-WIDE RESTOCK",
+            "text_2": "",
+            "desktop_width_percent": 100,
+            "padding_vertical": 15,
+            "item_spacing": 40,
+            "scroll_speed": 15,
+            "pause_on_hover": "paused",
+            "text_size": 16,
+            "text_weight": "700",
+            "text_transform": "uppercase",
+            "letter_spacing": 1,
+            "background_color": "#9E132B",
+            "text_color": "#ffffff",
+            "show_separator": true,
+            "separator_size": 4,
+            "separator_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_05b3d55_FMhEY3"
+      ],
+      "name": "Scrolling Announcement",
+      "settings": {}
     },
     "featured-collections": {
       "type": "featured-collections",
@@ -332,6 +367,7 @@
   },
   "order": [
     "image_with_text_overlay_PPGLnC",
+    "blocks_wqManW",
     "featured-collections",
     "multi-column",
     "collection-list",
