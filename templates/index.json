@@ -204,33 +204,6 @@
         "content": ""
       }
     },
-    "blocks_46Daah": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_28131cf_npUBVc": {
-          "type": "ai_gen_block_28131cf",
-          "settings": {
-            "bold_text": "STEP 2:",
-            "normal_text": "CUSTOMIZE YOUR BRACELET",
-            "bold_font": "poppins_n7",
-            "text_font": "poppins_n3",
-            "font_size": 20,
-            "text_color": "#ffffff",
-            "background_color": "#9e132b",
-            "text_alignment": "center",
-            "padding_vertical": 50,
-            "padding_horizontal": 20,
-            "desktop_width_percent": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_28131cf_npUBVc"
-      ],
-      "name": "SCROLLING BAR",
-      "settings": {}
-    },
     "blocks_CydwXF": {
       "type": "_blocks",
       "blocks": {
@@ -257,7 +230,36 @@
       "block_order": [
         "ai_gen_block_73ccb8f_jfzhM9"
       ],
-      "name": "SCROLLING BAR",
+      "name": "5000 HAPPY",
+      "settings": {}
+    },
+    "17823078920ad9b1ad": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_852945c_p8Daj6": {
+          "type": "ai_gen_block_852945c",
+          "settings": {
+            "heading_bold": "STEP 2:",
+            "heading_normal": "CUSTOMIZE YOUR BRACELET",
+            "heading_size": 22,
+            "heading_color": "#F1F1F1",
+            "paragraph": "<p>BUY 10 CHARMS AND GET THE BRACELET FOR FREE. (You must add the bracelet to your cart to be eligible for the offer)</p>",
+            "paragraph_size": 14,
+            "paragraph_color": "#F1F1F1",
+            "text_alignment": "center",
+            "spacing": 16,
+            "padding_vertical": 36,
+            "padding_horizontal": 36,
+            "desktop_width_percent": 100,
+            "background_color": "#9E132B"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_852945c_p8Daj6"
+      ],
+      "name": "STEP 2",
       "settings": {}
     },
     "image-with-text-scroll": {
@@ -310,82 +312,14 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
-    },
-    "multiple-media-with-text": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "rotation": 0
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image-1",
-        "image-2"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "before_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "About",
-        "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.</p>",
-        "button_1_text": "",
-        "button_1_link": "",
-        "button_1_style": "solid",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid"
-      }
-    },
-    "1782306790581957db": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_92ff913_K6fcCW": {
-          "type": "ai_gen_block_92ff913",
-          "settings": {
-            "bold_text": "STEP 2:",
-            "normal_text": "CUSTOMIZE YOUR BRACELET",
-            "font_size": 24,
-            "text_alignment": "center",
-            "desktop_width_percent": 100,
-            "background_color": "#9E132B",
-            "text_color": "#F1F1F1",
-            "padding_vertical": 30,
-            "padding_horizontal": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_92ff913_K6fcCW"
-      ],
-      "settings": {}
     }
   },
   "order": [
     "image_with_text_overlay_PPGLnC",
     "blocks_EUrgPc",
     "featured_product_nCYd8w",
-    "blocks_46Daah",
     "blocks_CydwXF",
-    "image-with-text-scroll",
-    "multiple-media-with-text",
-    "1782306790581957db"
+    "17823078920ad9b1ad",
+    "image-with-text-scroll"
   ]
 }
