@@ -25,8 +25,8 @@
             "style": "solid",
             "text": "SHOP NOW",
             "url": "shopify://collections/all",
-            "background": "#9E132B",
-            "text_color": "#FFFFFF"
+            "background": "#9e132b",
+            "text_color": "#ffffff"
           }
         }
       },
@@ -71,7 +71,7 @@
             "text_weight": "600",
             "text_transform": "none",
             "letter_spacing": 1,
-            "background_color": "#9E132B",
+            "background_color": "#9e132b",
             "text_color": "#ffffff"
           },
           "blocks": {}
@@ -84,8 +84,8 @@
             "bold_font": "poppins_n7",
             "text_font": "poppins_n3",
             "font_size": 20,
-            "text_color": "#FFFFFF",
-            "background_color": "#9E132B",
+            "text_color": "#ffffff",
+            "background_color": "#9e132b",
             "text_alignment": "center",
             "padding_vertical": 50,
             "padding_horizontal": 20,
@@ -204,6 +204,33 @@
         "content": ""
       }
     },
+    "blocks_46Daah": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_28131cf_npUBVc": {
+          "type": "ai_gen_block_28131cf",
+          "settings": {
+            "bold_text": "STEP 2:",
+            "normal_text": "CUSTOMIZE YOUR BRACELET",
+            "bold_font": "poppins_n7",
+            "text_font": "poppins_n3",
+            "font_size": 20,
+            "text_color": "#ffffff",
+            "background_color": "#9e132b",
+            "text_alignment": "center",
+            "padding_vertical": 50,
+            "padding_horizontal": 20,
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_28131cf_npUBVc"
+      ],
+      "name": "SCROLLING BAR",
+      "settings": {}
+    },
     "blocks_CydwXF": {
       "type": "_blocks",
       "blocks": {
@@ -221,7 +248,7 @@
             "text_weight": "600",
             "text_transform": "none",
             "letter_spacing": 1,
-            "background_color": "#F1F1F1",
+            "background_color": "#f1f1f1",
             "text_color": "#000000"
           },
           "blocks": {}
@@ -325,14 +352,40 @@
         "button_2_link": "",
         "button_2_style": "solid"
       }
+    },
+    "1782306790581957db": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_92ff913_K6fcCW": {
+          "type": "ai_gen_block_92ff913",
+          "settings": {
+            "bold_text": "STEP 2:",
+            "normal_text": "CUSTOMIZE YOUR BRACELET",
+            "font_size": 24,
+            "text_alignment": "center",
+            "desktop_width_percent": 100,
+            "background_color": "#9E132B",
+            "text_color": "#F1F1F1",
+            "padding_vertical": 30,
+            "padding_horizontal": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_92ff913_K6fcCW"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "image_with_text_overlay_PPGLnC",
     "blocks_EUrgPc",
     "featured_product_nCYd8w",
+    "blocks_46Daah",
     "blocks_CydwXF",
     "image-with-text-scroll",
-    "multiple-media-with-text"
+    "multiple-media-with-text",
+    "1782306790581957db"
   ]
 }
