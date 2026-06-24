@@ -1,6 +1,196 @@
+{% doc %}
+  @prompt
+    Large text bar saying in bold STEP 2: and In normal CUSTOMIZE YOUR BRACELET and a paragraph text below
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-text-bar-{{ ai_gen_id }} {
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.padding_vertical }}px {{ block.settings.padding_horizontal }}px;
+    background-color: {{ block.settings.background_color }};
+    display: block;
+  }
+
+  .ai-text-bar-container-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.spacing }}px;
+  }
+
+  .ai-text-bar-heading-{{ ai_gen_id }} {
+    margin: 0;
+    font-size: {{ block.settings.heading_size }}px;
+    color: {{ block.settings.heading_color }};
+    line-height: 1.2;
+  }
+
+  .ai-text-bar-heading-{{ ai_gen_id }} .ai-text-bar-bold-{{ ai_gen_id }} {
+    font-weight: 700;
+  }
+
+  .ai-text-bar-heading-{{ ai_gen_id }} .ai-text-bar-normal-{{ ai_gen_id }} {
+    font-weight: 400;
+  }
+
+  .ai-text-bar-paragraph-{{ ai_gen_id }} {
+    margin: 0;
+    font-size: {{ block.settings.paragraph_size }}px;
+    color: {{ block.settings.paragraph_color }};
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-text-bar-heading-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.8);
+    }
+
+    .ai-text-bar-paragraph-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.paragraph_size }}px * 0.9);
+    }
+  }
+{% endstyle %}
+
+<div class="ai-text-bar-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-text-bar-container-{{ ai_gen_id }}">
+    {% if block.settings.heading_bold != blank or block.settings.heading_normal != blank %}
+      <h2 class="ai-text-bar-heading-{{ ai_gen_id }}">
+        {% if block.settings.heading_bold != blank %}
+          <span class="ai-text-bar-bold-{{ ai_gen_id }}">{{ block.settings.heading_bold }}</span>
+        {% endif %}
+        {% if block.settings.heading_normal != blank %}
+          <span class="ai-text-bar-normal-{{ ai_gen_id }}">{{ block.settings.heading_normal }}</span>
+        {% endif %}
+      </h2>
+    {% endif %}
+
+    {% if block.settings.paragraph != blank %}
+      <div class="ai-text-bar-paragraph-{{ ai_gen_id }}">
+        {{ block.settings.paragraph }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Text bar",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading_bold",
+      "label": "Bold text",
+      "default": "STEP 2:"
+    },
+    {
+      "type": "text",
+      "id": "heading_normal",
+      "label": "Normal text",
+      "default": "CUSTOMIZE YOUR BRACELET"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Paragraph"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Paragraph text",
+      "default": "<p>Add your custom text here to provide additional information or instructions.</p>"
+    },
+    {
+      "type": "range",
+      "id": "paragraph_size",
+      "label": "Paragraph size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "paragraph_color",
+      "label": "Paragraph color",
+      "default": "#5c5c5c"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "spacing",
+      "label": "Space between elements",
+      "min": 8,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "label": "Vertical padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "label": "Horizontal padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text bar"
+    }
+  ]
+}
 {% endschema %}
