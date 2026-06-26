@@ -99,6 +99,9 @@
         "links",
         "newsletter"
       ],
+      "custom_css": [
+        ".button {border-radius: 999px;}"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
