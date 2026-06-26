@@ -98,7 +98,7 @@
           "type": "text",
           "settings": {
             "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "content": "<p>Join our free membership to receive exclusive deals, news, and events.</p>",
             "enable_follow_on_shop": true
           }
         }
