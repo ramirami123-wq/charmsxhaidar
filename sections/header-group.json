@@ -28,7 +28,7 @@
             "text_weight": "400",
             "text_transform": "uppercase",
             "letter_spacing": 1,
-            "background_color": "#9E132B",
+            "background_color": "#9e132b",
             "text_color": "#ffffff"
           },
           "blocks": {}
@@ -48,7 +48,7 @@
           "settings": {
             "announcement_text": "FREE BRACELET OFFER ENDS IN:",
             "countdown_end_date": "2026-06-31",
-            "countdown_end_time": "23:59:59",
+            "countdown_end_time": "21:57:00",
             "desktop_width_percent": 100,
             "background_color": "#000000",
             "text_color": "#ffffff",
