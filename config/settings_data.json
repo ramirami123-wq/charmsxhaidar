@@ -41,7 +41,7 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text_color": "#5c5c5c",
-          "primary_button_background": "#FFFFFF",
+          "primary_button_background": "#ffffff",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#5c5c5c"
@@ -65,6 +65,17 @@
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
           "primary_button_text_color": "#1c1c1c",
+          "circle_button_background": "#ffffff",
+          "circle_button_icon": "#1c1c1c"
+        }
+      },
+      "scheme-abb7c2ee-3e93-4a49-aab9-77efef2d4307": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text_color": "#000000",
+          "primary_button_background": "#9E132B",
+          "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#1c1c1c"
         }
