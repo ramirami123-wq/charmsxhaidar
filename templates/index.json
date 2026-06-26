@@ -289,16 +289,16 @@
             "heading_bold": "STEP 2:",
             "heading_normal": "CUSTOMIZE YOUR BRACELET",
             "heading_size": 22,
-            "heading_color": "#F1F1F1",
+            "heading_color": "#f1f1f1",
             "paragraph": "<p>BUY 10 CHARMS AND GET THE BRACELET FOR FREE. (You must add the bracelet to your cart to be eligible for the offer)</p>",
             "paragraph_size": 14,
-            "paragraph_color": "#F1F1F1",
+            "paragraph_color": "#f1f1f1",
             "text_alignment": "center",
             "spacing": 16,
-            "padding_vertical": 36,
+            "padding_vertical": 80,
             "padding_horizontal": 36,
             "desktop_width_percent": 100,
-            "background_color": "#9E132B"
+            "background_color": "#9e132b"
           },
           "blocks": {}
         }
