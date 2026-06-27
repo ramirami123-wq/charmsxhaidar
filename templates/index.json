@@ -186,7 +186,8 @@
         "pickup_availability_eGzdjQ"
       ],
       "custom_css": [
-        ".button {border-radius: 999px;}"
+        ".button {border-radius: 999px;}",
+        "[class*=\"variant\"] button,[class*=\"variant\"] label,[class*=\"swatch\"] button,[class*=\"swatch\"] label,[class*=\"color\"] button,[class*=\"color\"] label {border-radius: 33px !important; overflow: hidden !important;}"
       ],
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
