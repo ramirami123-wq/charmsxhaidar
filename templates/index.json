@@ -124,8 +124,8 @@
         "rating_qNajyN": {
           "type": "rating",
           "settings": {
-            "show_empty": true,
-            "rating_mode": "rating"
+            "show_empty": false,
+            "rating_mode": "count"
           }
         },
         "payment_terms_DnBq3N": {
@@ -159,7 +159,7 @@
         "buy_buttons_EkXdJc": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
             "atc_button_background": "#9E132B",
             "atc_button_text_color": "#FFFFFF",
@@ -185,6 +185,9 @@
         "buy_buttons_EkXdJc",
         "pickup_availability_eGzdjQ"
       ],
+      "custom_css": [
+        ".button {border-radius: 999px;}"
+      ],
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
@@ -201,7 +204,7 @@
         "enable_image_zoom": false,
         "max_image_zoom_level": 3,
         "subheading": "",
-        "title": "Featured product",
+        "title": "",
         "content": ""
       }
     },
