@@ -14,7 +14,7 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-abb7c2ee-3e93-4a49-aab9-77efef2d4307",
         "show_cart_note": true,
         "show_shipping_text": true,
         "show_view_cart_button": false,
