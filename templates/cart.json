@@ -11,11 +11,38 @@
   "sections": {
     "main": {
       "type": "main-cart",
+      "blocks": {
+        "pal_cart_gift_selector_block_kHQjGP": {
+          "type": "shopify://apps/pal/blocks/cart-gift-selector-block/2aac8a73-a255-45a0-a21a-d9c31f00526d",
+          "settings": {
+            "giftapp_primary_background": "#FFFFFF",
+            "giftapp_secondary_background": "#F3F3F3",
+            "giftapp_input_field_border": "#000000",
+            "giftapp_rounded_corners": 6,
+            "giftapp_dropdown_image_size": 40,
+            "giftapp_heading_text_color": "#333333",
+            "giftapp_heading_text_size": 22,
+            "giftapp_subheading_text_color": "#666666",
+            "giftapp_subheading_text_size": 16,
+            "giftapp_hint_text_color": "#666666",
+            "giftapp_hint_text_size": 14,
+            "giftapp_banner_background": "#fff7e9",
+            "giftapp_banner_text_color": "#875800",
+            "giftapp_banner_text_size": 16,
+            "giftapp_button_background": "#9E132B",
+            "giftapp_button_text": "#FFFFFF",
+            "giftapp_button_font_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "pal_cart_gift_selector_block_kHQjGP"
+      ],
       "settings": {
         "color_scheme": "scheme-abb7c2ee-3e93-4a49-aab9-77efef2d4307",
         "show_cart_note": true,
         "show_order_weight": false,
-        "show_shipping_text": true,
+        "show_shipping_text": false,
         "show_accelerated_buttons": false,
         "show_shipping_estimator": false
       }
