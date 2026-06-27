@@ -145,7 +145,7 @@
         "variant_picker_xrXjnK": {
           "type": "variant_picker",
           "settings": {
-            "hide_sold_out_variants": false,
+            "hide_sold_out_variants": true,
             "selector_style": "dropdown",
             "swatch_selector_style": "none",
             "variant_image_options": "Color",
