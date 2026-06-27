@@ -106,7 +106,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "enable_sticky": false,
         "hide_on_scroll": false,
         "show_separation_border": false,
