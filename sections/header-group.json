@@ -62,7 +62,6 @@
       "block_order": [
         "ai_gen_block_b9d7b23_cpH3XM"
       ],
-      "disabled": true,
       "name": "Countdown TIMER",
       "settings": {}
     },
@@ -90,6 +89,7 @@
       "block_order": [
         "ai_gen_block_2069761_QcmyXx"
       ],
+      "disabled": true,
       "settings": {}
     },
     "announcement-bar": {
