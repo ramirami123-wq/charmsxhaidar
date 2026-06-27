@@ -16,12 +16,14 @@
       "settings": {
         "color_scheme": "scheme-abb7c2ee-3e93-4a49-aab9-77efef2d4307",
         "show_cart_note": true,
-        "show_shipping_text": true,
+        "show_shipping_text": false,
         "show_view_cart_button": false,
         "show_checkout_button": true,
         "show_price_in_checkout_button": true,
-        "cross_sell_products": [],
-        "cross_sell_title": "Complete with",
+        "cross_sell_products": [
+          "gift-box-1"
+        ],
+        "cross_sell_title": "IS IT A GIFT?",
         "cross_sell_stack_products": false
       }
     },
