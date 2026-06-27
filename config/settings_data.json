@@ -25,6 +25,13 @@
     "cart_icon": "tote_bag",
     "favicon": "shopify://shop_images/KN_Logo_Design.png",
     "content_for_index": [],
+    "blocks": {
+      "5328071260688737272": {
+        "type": "shopify://apps/super-gift-options/blocks/app-embed/d9b137c5-9d50-4342-a6ed-bbb1ebfb63ce",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
