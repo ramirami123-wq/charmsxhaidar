@@ -66,11 +66,11 @@
       "name": "Countdown TIMER",
       "settings": {}
     },
-    "17825764794922922f": {
+    "1782577193daa35584": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_2069761_QcmyXx": {
-          "type": "ai_gen_block_2069761",
+        "ai_gen_block_1c66f5f_pfNy6Q": {
+          "type": "ai_gen_block_1c66f5f",
           "settings": {
             "announcement_text": "FREE BRACELET OFFER ENDS IN:",
             "countdown_end_date": "2026-07-04",
@@ -79,18 +79,16 @@
             "text_color": "#ffffff",
             "number_color": "#ffffff",
             "label_color": "#ffffff",
-            "separator_color": "#ffffff",
-            "text_size": 20,
-            "number_size": 20,
+            "text_size": 26,
+            "number_size": 24,
             "label_size": 10
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_2069761_QcmyXx"
+        "ai_gen_block_1c66f5f_pfNy6Q"
       ],
-      "name": "TIMER 2",
       "settings": {}
     },
     "announcement-bar": {
@@ -136,7 +134,7 @@
   "order": [
     "1782220301300880ad",
     "17822219480530f62c",
-    "17825764794922922f",
+    "1782577193daa35584",
     "announcement-bar",
     "header"
   ]
