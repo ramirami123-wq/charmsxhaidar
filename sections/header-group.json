@@ -79,9 +79,9 @@
             "text_color": "#ffffff",
             "number_color": "#ffffff",
             "label_color": "#ffffff",
-            "text_size": 22,
-            "number_size": 24,
-            "label_size": 13
+            "text_size": 20,
+            "number_size": 22,
+            "label_size": 11
           },
           "blocks": {}
         }
