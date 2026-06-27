@@ -147,8 +147,8 @@
           "settings": {
             "hide_sold_out_variants": false,
             "selector_style": "dropdown",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "goldtone-silver",
+            "swatch_selector_style": "none",
+            "variant_image_options": "Color",
             "size_chart_page": ""
           }
         },
