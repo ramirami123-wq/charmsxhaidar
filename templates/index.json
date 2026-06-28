@@ -345,6 +345,137 @@
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
+    },
+    "ss_video_slider_FD6NFy": {
+      "type": "ss-video-slider",
+      "blocks": {
+        "slide_pfbTT7": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/IMG_4674.MOV",
+            "title": "Title",
+            "stars_count": 5
+          }
+        },
+        "slide_WPdEky": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/2a405258fb2a49a0b6af006a0503d549.HD-1080p-7.2Mbps-52430263.mp4",
+            "title": "Title",
+            "stars_count": 5
+          }
+        },
+        "slide_Xn4pNT": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/AYASALEH.mp4",
+            "title": "Title",
+            "stars_count": 5
+          }
+        },
+        "slide_yAAWLX": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/SnapTik_App_7481596580622077206-HD.mp4",
+            "title": "Title",
+            "stars_count": 5
+          }
+        },
+        "slide_k8gAAy": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/SnapTik_App_7427809843223727382-HD.mp4",
+            "title": "Title",
+            "stars_count": 5
+          }
+        }
+      },
+      "block_order": [
+        "slide_pfbTT7",
+        "slide_WPdEky",
+        "slide_Xn4pNT",
+        "slide_yAAWLX",
+        "slide_k8gAAy"
+      ],
+      "name": "SS - Video slider",
+      "settings": {
+        "slider_view": 5,
+        "slider_view_mobile": 1.5,
+        "slider_rotate": 0,
+        "slider_advanced": false,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "card_ratio": "portrait",
+        "card_ratio_mobile": "portrait",
+        "card_radius": 16,
+        "card_border_thickness": 0,
+        "card_overlay": 0.2,
+        "card_shadow": false,
+        "content_horizontal_position": "center",
+        "content_horizontal_position_mobile": "center",
+        "content_vertical_position": "end",
+        "content_vertical_position_mobile": "end",
+        "card_advanced": false,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 20,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 20,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 16,
+        "title_size_mobile": 16,
+        "title_height": 130,
+        "hide_stars": false,
+        "stars_size": 16,
+        "stars_size_mobile": 16,
+        "stars_mt": 16,
+        "stars_mt_mobile": 16,
+        "use_action": true,
+        "use_sound": true,
+        "action_size": 40,
+        "action_size_mobile": 40,
+        "action_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_radius": 100,
+        "arrow_border_thickness": 0,
+        "arrow_hover_effect": "color",
+        "title_color": "#FFFFFF",
+        "stars_color": "#FFFFFF",
+        "card_border_color": "#121212",
+        "card_shadow_color": "#121212",
+        "card_overlay_color": "#121212",
+        "action_color": "#FFFFFF",
+        "action_hover_color": "#FFFFFF",
+        "action_bg_color": "#FFFFFF",
+        "action_bg_hover_color": "#FFFFFF",
+        "action_border_color": "#FFFFFF",
+        "action_border_hover_color": "#FFFFFF",
+        "arrow_color": "#121212",
+        "arrow_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#121212",
+        "arrow_border_color": "#121212",
+        "arrow_border_hover_color": "#121212",
+        "background_style": "solid",
+        "background_color": "#FFFFFF",
+        "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "width": "page",
+        "content_width": 1200,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -354,6 +485,7 @@
     "blocks_CydwXF",
     "1782308323e1930e9e",
     "17823078920ad9b1ad",
-    "featured_collections_pTq9Ff"
+    "featured_collections_pTq9Ff",
+    "ss_video_slider_FD6NFy"
   ]
 }
