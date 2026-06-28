@@ -349,10 +349,10 @@
     "ss_video_slider_FD6NFy": {
       "type": "ss-video-slider",
       "blocks": {
-        "slide_pfbTT7": {
+        "slide_Xn4pNT": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/IMG_4674.MOV",
+            "video": "shopify://files/videos/AYASALEH.mp4",
             "title": "Title",
             "stars_count": 5
           }
@@ -373,10 +373,10 @@
             "stars_count": 5
           }
         },
-        "slide_Xn4pNT": {
+        "slide_pfbTT7": {
           "type": "slide",
           "settings": {
-            "video": "shopify://files/videos/AYASALEH.mp4",
+            "video": "shopify://files/videos/IMG_4674.MOV",
             "title": "Title",
             "stars_count": 5
           }
@@ -391,10 +391,10 @@
         }
       },
       "block_order": [
-        "slide_pfbTT7",
+        "slide_Xn4pNT",
         "slide_WPdEky",
         "slide_k8gAAy",
-        "slide_Xn4pNT",
+        "slide_pfbTT7",
         "slide_yAAWLX"
       ],
       "name": "SS - Video slider",
