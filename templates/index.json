@@ -365,6 +365,14 @@
             "stars_count": 5
           }
         },
+        "slide_k8gAAy": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify://files/videos/SnapTik_App_7427809843223727382-HD.mp4",
+            "title": "Title",
+            "stars_count": 5
+          }
+        },
         "slide_Xn4pNT": {
           "type": "slide",
           "settings": {
@@ -380,22 +388,14 @@
             "title": "Title",
             "stars_count": 5
           }
-        },
-        "slide_k8gAAy": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/SnapTik_App_7427809843223727382-HD.mp4",
-            "title": "Title",
-            "stars_count": 5
-          }
         }
       },
       "block_order": [
         "slide_pfbTT7",
         "slide_WPdEky",
+        "slide_k8gAAy",
         "slide_Xn4pNT",
-        "slide_yAAWLX",
-        "slide_k8gAAy"
+        "slide_yAAWLX"
       ],
       "name": "SS - Video slider",
       "settings": {
