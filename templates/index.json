@@ -161,8 +161,8 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#9E132B",
-            "atc_button_text_color": "#FFFFFF",
+            "atc_button_background": "#9e132b",
+            "atc_button_text_color": "#ffffff",
             "payment_button_background": "#000000",
             "payment_button_text_color": ""
           }
