@@ -14,7 +14,7 @@
     "default_color_scheme": "scheme-abb7c2ee-3e93-4a49-aab9-77efef2d4307",
     "modal_color_scheme": "scheme-abb7c2ee-3e93-4a49-aab9-77efef2d4307",
     "product_rating_color": "#1c1c1c",
-    "product_on_sale_accent": "#e32c2b",
+    "product_on_sale_accent": "#FF0000",
     "product_sold_out_badge_background": "#000000",
     "product_custom_badge_background": "#1c1c1c",
     "success_color": "#307a07",
