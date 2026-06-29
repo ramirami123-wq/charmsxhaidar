@@ -106,69 +106,6 @@
         "max_image_zoom_level": 3
       }
     },
-    "text_with_icons_AXAdMG": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_FMVg7X": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "custom_icon": "shopify://shop_images/159167422933Diamond_1.webp",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "HAND-CRAFTED WITH CARE",
-            "content": ""
-          }
-        },
-        "item_Xkfhti": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "custom_icon": "shopify://shop_images/826340908983Water.webp",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "<strong>SWEAT & WATERPROOF</strong>",
-            "content": ""
-          }
-        },
-        "item_QeyaJM": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "custom_icon": "shopify://shop_images/234574661302Link.webp",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "COMPLETELY CUSTOMIZABLE",
-            "content": ""
-          }
-        },
-        "item_mryWiN": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-award-gift",
-            "custom_icon": "shopify://shop_images/906709922412Love.gif",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "THE PERFECT GIFT",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_FMVg7X",
-        "item_Xkfhti",
-        "item_QeyaJM",
-        "item_mryWiN"
-      ],
-      "settings": {
-        "color_scheme": "scheme-3",
-        "separate_section_with_border": true,
-        "stack_on_mobile": false,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "center"
-      }
-    },
     "related-products": {
       "type": "related-products",
       "custom_css": [],
@@ -353,13 +290,76 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "text_with_icons_AXAdMG": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_FMVg7X": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/159167422933Diamond_1.webp",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "HAND-CRAFTED WITH CARE",
+            "content": ""
+          }
+        },
+        "item_Xkfhti": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/826340908983Water.webp",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "<strong>SWEAT & WATERPROOF</strong>",
+            "content": ""
+          }
+        },
+        "item_QeyaJM": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/234574661302Link.webp",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "COMPLETELY CUSTOMIZABLE",
+            "content": ""
+          }
+        },
+        "item_mryWiN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify://shop_images/906709922412Love.gif",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "THE PERFECT GIFT",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_FMVg7X",
+        "item_Xkfhti",
+        "item_QeyaJM",
+        "item_mryWiN"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
     "main",
-    "text_with_icons_AXAdMG",
     "related-products",
     "17827398353ed224d9",
-    "ss_video_slider_Y7BVeU"
+    "ss_video_slider_Y7BVeU",
+    "text_with_icons_AXAdMG"
   ]
 }
