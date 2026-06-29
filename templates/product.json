@@ -137,7 +137,7 @@
             "padding_bottom": 15,
             "padding_left": 30,
             "padding_right": 30,
-            "margin_top": -36,
+            "margin_top": 0,
             "margin_bottom": 36
           },
           "blocks": {}
