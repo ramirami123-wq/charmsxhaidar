@@ -124,7 +124,7 @@
           "type": "ai_gen_block_22c94a9",
           "settings": {
             "button_text": "Shop now",
-            "button_link": "",
+            "button_link": "shopify://collections/charms",
             "button_color": "#9E132B",
             "button_hover_color": "#000000",
             "button_text_color": "#ffffff",
