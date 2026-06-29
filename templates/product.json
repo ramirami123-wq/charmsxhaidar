@@ -147,30 +147,11 @@
         "ai_gen_block_22c94a9_cRrFiK"
       ],
       "settings": {}
-    },
-    "related_products_8CmpDh": {
-      "type": "related-products",
-      "name": "t:sections.related_products.presets.related_products.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "Related products",
-        "content": ""
-      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "17827398353ed224d9",
-    "related_products_8CmpDh"
+    "17827398353ed224d9"
   ]
 }
