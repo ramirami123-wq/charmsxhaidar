@@ -99,55 +99,6 @@
         "max_image_zoom_level": 3
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "THE COLLECTION",
-        "content": ""
-      }
-    },
-    "17827398353ed224d9": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_22c94a9_cRrFiK": {
-          "type": "ai_gen_block_22c94a9",
-          "settings": {
-            "button_text": "Shop now",
-            "button_link": "shopify://collections/charms",
-            "button_color": "#9E132B",
-            "button_hover_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_hover_text_color": "#ffffff",
-            "button_font": "poppins_n5",
-            "text_transform": "uppercase",
-            "font_size": 14,
-            "desktop_width_percent": 45,
-            "padding_top": 15,
-            "padding_bottom": 15,
-            "padding_left": 30,
-            "padding_right": 30,
-            "margin_top": 0,
-            "margin_bottom": 36
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_22c94a9_cRrFiK"
-      ],
-      "settings": {}
-    },
     "text_with_icons_AXAdMG": {
       "type": "text-with-icons",
       "blocks": {
@@ -210,6 +161,55 @@
         "text_color": "",
         "text_alignment": "center"
       }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "THE COLLECTION",
+        "content": ""
+      }
+    },
+    "17827398353ed224d9": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_22c94a9_cRrFiK": {
+          "type": "ai_gen_block_22c94a9",
+          "settings": {
+            "button_text": "Shop now",
+            "button_link": "shopify://collections/charms",
+            "button_color": "#9E132B",
+            "button_hover_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_hover_text_color": "#ffffff",
+            "button_font": "poppins_n5",
+            "text_transform": "uppercase",
+            "font_size": 14,
+            "desktop_width_percent": 45,
+            "padding_top": 15,
+            "padding_bottom": 15,
+            "padding_left": 30,
+            "padding_right": 30,
+            "margin_top": 0,
+            "margin_bottom": 36
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_22c94a9_cRrFiK"
+      ],
+      "settings": {}
     },
     "ss_video_slider_Y7BVeU": {
       "type": "ss-video-slider",
@@ -350,9 +350,9 @@
   },
   "order": [
     "main",
+    "text_with_icons_AXAdMG",
     "related-products",
     "17827398353ed224d9",
-    "text_with_icons_AXAdMG",
     "ss_video_slider_Y7BVeU"
   ]
 }
